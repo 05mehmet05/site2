@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 1px;
+}
+
+.article {
+    background: rgb(255, 255, 255);
+    height: 750px;
+    background-image: url(img/Başlıksız-1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 600px;
+}
+
+article>h1 {
+    margin-top: 200px;
+    margin-left: 100px;
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+
+article>h2 {
+    margin-left: 100px;
+}
+
+.nav {
+    background: rgb(255, 255, 255);
+    height: 500px;
+}
+
+nav>h1 {
+    text-align: center;
+    font-size: 75px;
+    color: darkgoldenrod;
+}
+
+nav>h2 {
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    color: darkgoldenrod;
+    font-size: 20px;
+}
+
+nav>h3 {
+    text-align: right;
+    margin-right: 50px;
+    font-size: 40px;
+}
+
+nav>h4 {
+    text-align: center;
+    margin-top: -185px;
+    font-size: 40px;
+}
+
+nav>h5 {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 50px;
+    color: darkgoldenrod;
+    font-size: 20px;
+}
+
+nav>h6 {
+    text-align: left;
+    margin-top: -155px;
+    font-size: 40px;
+}
+
+nav>p {
+    text-align: left;
+    margin-top: 20px;
+    margin-right: 50px;
+    color: darkgoldenrod;
+    font-size: 20px;
+}
+
+aside {
+    background: rgb(255, 255, 255);
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+
+aside>img {
+    width: 300px;
+    height: 300px;
+    margin-left: 220px;
+}
+
+aside>h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 500px;
+    font-size: 50px;
+}
+
+aside>h3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-right: 550px;
+    margin-top: -200px;
+    font-size: 50px;
+}
+
+.aside>h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 50px;
+    color: darkgoldenrod;
+    font-size: 40px;
+}
+
+.main>h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 50px;
+    color: darkgoldenrod;
+    font-size: 40px;
+}
+
+main>img {
+    display: flex;
+    display: inline;
+    margin-right: 10px;
+    width: 450px;
+    height: 350px;
+    margin-left: 150px;
+}
+
+.main {
+    background: rgb(255, 255, 255);
+    height: 1000px;
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    height: 20vh;
+    background-image: url(img/LOGO.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 10px solid rgb(255, 255, 255);
+    display: flex-wrap;
+    justify-content: space-around;
+}
+
+header>table {
+    float: right;
+    text-indent: 50px;
+    color: goldenrod;
+    font-size: 30px;
+}
+
+#box {
+    display: flex;
+    max-width: 300px;
+    position: relative;
+    margin-left: 400px;
+}
+
+#box .fa-search {
+    position: absolute;
+    top: 14px;
+    left: 12px;
+    font-size: 20px;
+    color: rgb(201, 162, 37);
+}
+
+#search {
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid rgb(221, 173, 16);
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 12px 20px 12px 40px;
+    -moz-transition: width 0.4s ease-in-out;
+    -o-transition: width 0.4s ease-in-out;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#search:focus {
+    width: 100%;
+}
+
+footer>img {
+    height: 100px;
+    width: 100px;
+    justify-items: center;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 20vh;
+}
+
+header,
+footer,
+article,
+nav,
+aside {
+    padding: 1em;
+}
